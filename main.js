@@ -88,5 +88,10 @@ while(married !== "YES" && married !== "NO"){
 	married = prompt("Are you married? Please enter yes or no.").toUpperCase();
 }
 
+
+git init
 git add -A
-git commit -m "Used an array of objects to validate user input of state abbreviation"
+git commit -m "message"
+git remote add origin https://github.com/DanPerata/refactorU-JS3.git
+git push -u origin master
+
